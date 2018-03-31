@@ -11,7 +11,7 @@ public class Bot implements multipaint.Bot {
   public static int[][] ActionDirections = new int[][]{
     {-1, -1}, { 0, -1}, { 1, -1},
     {-1,  0},           { 1,  0},
-    { 1,  1}, { 0,  1}, { 1,  1},
+    {-1,  1}, { 0,  1}, { 1,  1},
   };
 
   public void setPlayerId(String playerId) {
